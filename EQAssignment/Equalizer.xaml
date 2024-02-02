@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EQAssignment.Equalizer"
+             Title="Equalizer">
+    <Grid 
+      
+      
+      
+      
+        Background="Goldenrod">
+        <StackLayout>
+
+            <Label Text="Bass" FontSize="20"></Label>
+            <Slider x:Name="Bass"
+        
+        
+                  Minimum="0"
+        
+                  Maximum="100"
+        
+                  VerticalOptions="FillAndExpand" />
+
+
+            <Label Text="Trebble" FontSize="20"></Label>
+            <Slider x:Name="Trebble"
+       
+                  Minimum="0"
+         
+                  Maximum="100"
+        
+                  VerticalOptions="FillAndExpand" />
+
+
+            <Label Text="Tune" FontSize="20"></Label>
+            <Slider x:Name="Tune"
+        
+                  Minimum="0"
+        
+                  Maximum="100"
+       
+                  VerticalOptions="FillAndExpand" />
+
+        </StackLayout>
+
+    </Grid>
+
+
+
+
+
+
+</ContentPage>
